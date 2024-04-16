@@ -44,16 +44,12 @@ def toggleChromeFullscreen():
 
 def main():
     try:
-        # Path('C:/Temp').mkdir(parents=True, exist_ok=True)
         wdir = os.getcwd().replace('\\','/')
-        # xmpath = createXml('gohjdfmmkmbmipfalikhmgnmdbkhecdi',wdir)
         stopProcess("chrome")
         stopProcess("explorer")
         time.sleep(3)
         path, arg = linkToPath(sys.argv[1])
         lxt = '--load-extension=\"{}\\{}\"'.format(wdir,"ExaLockExt")
-        # print("{} {} {}".format(path,arg,lxt))
-        # preventUninstallation(xmpath)
         preventIncognito()
         time.sleep(5)
         subprocess.Popen("{} {} {}".format(path,arg,lxt))
