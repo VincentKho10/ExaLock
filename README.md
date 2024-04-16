@@ -1,14 +1,14 @@
 HOW TO USE:
-  extract zip
-  drag shortcut .lnk file toward the .exe file
+  <br>&nbsp; extract zip
+  <br>&nbsp; drag shortcut .lnk file toward the .exe file
 
 Objective:
-  prevent cheating
+  <br>&nbsp; prevent cheating on browser based exam
   
 Extension objective:
-  unable to create new tab
-  unable to open chrome://
+  <br>&nbsp; unable to create new tab
+  <br>&nbsp; unable to open chrome://
 
 Main App:
-  disable incognito
-  force focus on browser
+  <br>&nbsp; disable incognito
+  <br>&nbsp; force focus on browser
